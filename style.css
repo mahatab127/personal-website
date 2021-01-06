@@ -1,76 +1,139 @@
+
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1{
-    font-size: 50px;
+  font-size: 40px;
+  margin: 0;
 }
 h2{
-    margin-top: 100px;
-    font-size: 40px;
+  margin-top: 100px;
+  font-size: 40px;
+}
+h4{
+  font-size: 20px;
+}
+h5{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  color: rgb(56, 56, 56);
 }
 p{
-    color: dimgrey;
+  color: dimgrey;
 }
 .orange-highlight{
-    color: orange;
+  color: #FF8367;
+  font-size: 40px;
+}
+.menu-bar {
+  width: 930px;
+  margin: 0 auto;
+  padding: 30px 0px 30px 0px;
+  text-align: right;
+}
+.menu-bar ul{
+  list-style: none;
+  
+}
+.menu-bar ul li{
+  display: inline;
+  margin-left: 40px;
+  
+}
+.menu-bar ul li a{
+  display: inline;
+  color: #37464F;
+  text-decoration: none;
 }
 .half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-
+  width: 100%;
 }
 section{
-    height: 500px;
-    padding-bottom: 150px;
+  height: 500px;
+  padding-bottom: 150px;
 }
 .link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
-    background-color: orange;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
-.dream-area{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.project-show{
+  background-color: #F8F9FC;
+  padding-bottom: 250px;
+  
 }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 80%;
-    background-color: #fff;
+.project-show h3{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
 }
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-top: 50px;
+.working-project{
+  margin-left: 45px;
+  display: flex;
+
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
+.div-1{
+  width: 30%;
+  height: 400px;
+  margin: 15px;
+  box-shadow: 10px 10px 20px rgb(214, 213, 213);
+  border-radius: 15px;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(-180deg, blue, cyan);
-    border-image-slice: 1;
+.working-project-name, .project-description{
+  margin-left: 15px;
+}
+.div-1 img{
+  width: 100%;
+}
+.box{
+  margin-top: 100px;
+ margin-left: 350px;
+ margin-bottom: 100px;
+ 
+  
+}
+.box-bg{
+ background-image: url(images/Group_33094_1.jpg);
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 150px;
+ display: flex
+}
+.box-bg-text{
+  font-size: 25px;
+  margin-left: 25px;
+  padding-top: 60px;
+  color: white;
+}
+.box-btn{
+  margin-top: 70px;
+  margin-left: 250px;
+}
+.box-btn a{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+
 }
 footer p{
-    text-align: center;
-    font-size: 16px;
+  text-align: center;
+  font-size: 16px;
 }
